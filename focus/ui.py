@@ -7,7 +7,6 @@ b = 2
 def path_to_list(path):
     l = []
     dname = os.path.dirname(path)
-    bname = os.path.basename(path)
     while dname != "":
         l.append(os.path.basename(dname))
         dname = os.path.dirname(dname)
