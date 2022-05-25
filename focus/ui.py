@@ -2,7 +2,8 @@ import os
 from tkinter import *
 from focus.Robot import Robot, fetch_from_origin
 
-    
+a = 1
+b = 2
 def path_to_list(path):
     l = []
     dname = os.path.dirname(path)

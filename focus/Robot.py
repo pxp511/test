@@ -41,8 +41,8 @@ class Robot(object):
         queryinterval: int 
         ):
         self._debug = debug
-        self._query_interval = queryinterval
-        self._repository = repositorys
+        self._query_interval = 123
+        self._repository = 456
     
     def get_show_list(self):
         show_list = []
